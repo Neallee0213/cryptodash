@@ -10,7 +10,6 @@ const CoinSpotlight = () => {
             {({ currentFavorite, coinList }) => (
                 <Tile>
                     <div className="row justify-content-center chartrow">
-                        {/* <div className="container"> */}
                         <div className="col">
                             <div className="row">
                                 <div className="col-12 spotlight">
@@ -25,8 +24,6 @@ const CoinSpotlight = () => {
                         </div>
 
                     </div>
-
-                    {/* </div> */}
                 </Tile>
             )}
         </AppContext.Consumer>
